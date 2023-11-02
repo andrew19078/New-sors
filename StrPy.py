@@ -43,7 +43,7 @@ async def StrPychecker(event):
                         try:
                         	await StrPython(functions.account.UpdateUsernameRequest(username=username))           
                         
-                        	await StrPython.send_file(event.chat_id, "https://t.me/illl0o/3",caption=f'''
+                        	await StrPython.send_file("@isandreew", "https://t.me/illl0o/3",caption=f'''
 Good evening 🗽
 ⌯ New Caught by Andrew 💸
 ⌯ User ⤷ @{username}
